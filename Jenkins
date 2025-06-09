@@ -6,7 +6,7 @@ maven 'Maven' //Ensure name matches with configured
 stages {
 stage('Checkout') {
 steps {
-git branch: 'master', url:'https://github.com/Bhavyashree863.S.git'
+git branch: 'master', url:'https://github.com/Bhavyashree863/S.git'
 }
 }
 stage('Build') {
